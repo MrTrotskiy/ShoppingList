@@ -1,0 +1,156 @@
+* {
+    font-size: 26px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.app-container {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.list {
+    background-color: #bee3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    padding: 20px;
+}
+
+.list-header {
+    background-color: #ea7f70;
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.35);
+}
+
+.list-title {
+    text-align: center;
+}
+
+.list-item-add {
+    background: #fbc1bb;
+    color: #ea7f70;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    /*padding: 5px;*/
+}
+
+.add-item-input {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #d3887e;
+    width: 450px;
+    height: 50px;
+    padding: 0 20px 0 20px;
+}
+
+#addButton {
+    font-size: 48px;
+    padding: 0 5px 0 5px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    color: #ec645b;
+    cursor: pointer;
+}
+/*#addButton:hover {*/
+/*    background-color: #ff9f7e;*/
+/*}*/
+
+.list-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-item-container {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: relative;
+    padding: 20px 0 20px 0;
+}
+
+.item-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-name {
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.item-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.item-actions {
+    height: 35px;
+    width: 85px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding: 0 15px;
+}
+
+.item-quantity {
+    font-size: 20px;
+    color: #ea7f70;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.decrease-button {
+    border: none;
+    cursor: pointer;
+}
+
+.increase-button {
+    border: none;
+    cursor: pointer;
+}
+
+/*#textTotal {*/
+/*    display: none;*/
+/*}*/
+
+/*#totalAmount {*/
+/*    display: none;*/
+/*}*/
+
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chekmark.css">
+</head>
+<body>
+<div class="app-container">
+    <div class="list">
+        <div class="list-header">
+            <h1 class="list-title">List</h1>
+            <div class="list-item-add">
+                <label>
+                    <span>
+                        <input class="add-item-input" id="input" type="text" placeholder="Add an item...">
+                    </span>
+                </label>
+                <button id="addButton" onclick="addItem()">+</button>
+            </div>
+            <div class="list-items" id="listItem">
+                <div class="list-item-container">
+<!--                    <div class="item-container">-->
+<!--                        <label>-->
+<!--                            <div class="item-container">-->
+<!--                                <input type="checkbox" class="item-checkbox" id="item-1">-->
+<!--                                <label class="checkbox-label" for="item-1">-->
+<!--                                    <span class="checkmark"></span>-->
+<!--                                    <span class="item-name">Item 1</span>-->
+<!--                                </label>-->
+<!--                            </div>-->
+<!--                        </label>-->
+<!--                        <div class="item-actions">-->
+<!--                            <button class="increase-button" data-index="${listItems.indexOf(item)}">-->
+<!--                                <svg class="icon-arrow-left" xmlns="http://www.w3.org/2000/svg" width="16" height="16"-->
+<!--                                     viewBox="0 0 16 16">-->
+<!--                                    <path d="M8 1l-7 7 7 7" stroke="#ea7f70" stroke-width="2" fill="none"-->
+<!--                                          fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>-->
+<!--                                </svg>-->
+<!--                            </button>-->
+<!--                            <span class="item-quantity">1</span>-->
+<!--                            <button class="decrease-button" data-index="${listItems.indexOf(item)}">-->
+<!--                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"-->
+<!--                                     viewBox="0 0 16 16">-->
+<!--                                    <g transform="translate(8, 8) rotate(180) translate(-8, -8)">-->
+<!--                                        <path d="M8 1l-7 7 7 7" stroke="#ea7f70" stroke-width="2" fill="none"-->
+<!--                                              fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>-->
+<!--                                    </g>-->
+<!--                                </svg>-->
+<!--                            </button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                </div>
+            </div>
+            <div class="total" id="textTotal">
+                Total: <span id="totalAmount">0</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
